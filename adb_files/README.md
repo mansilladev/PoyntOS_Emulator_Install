@@ -9,7 +9,7 @@ terminal allowing you to sideload your apps and perform card-based test transact
 
 ## Pre-requisites for the PoyntOS Emulator
  * For virtual emulators, create a new virtual device built on Android API 19 (KitKat/4.4.4), tablet form-factor, 800x1200 resolution
- * For a physical tablet, use a 7" Android tablet
+ * For a physical tablet, use a 7" Android tablet (Tegra Note 7 recommended)
  * ADB (Android Debug Bridge) command line tool - see http://developer.android.com/tools/help/adb.html
  * Python (to run the installation script)
 
