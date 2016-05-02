@@ -10,7 +10,7 @@ Android tablet.
 If you're using AVD (Android Virtual Device Manager in Android Studio), we have packaged a
 pre-configured device image of the PoyntOS Emulator. AVD provides many knobs and levers and
 using this package should guarantee a smooth running PoyntOS emulator with minimal effort. 
-Navigate to the `_INSTALL_ANDROID_STUDIO_AVD` folder in this package
+Navigate to the [`_INSTALL_ANDROID_STUDIO_AVD`](/_INSTALL_ANDROID_STUDIO_AVD) folder in this package
 and review the instructions in README.
 
 ---
@@ -19,7 +19,7 @@ and review the instructions in README.
 If you're using an emulator other than AVD (like Genymotion) _or_ you want to install the PoyntOS
 emulator on a physical device, we have provided a script that installs PoyntOS to your device using
 the `adb` command line tool. e
-Navigate to the `_INSTALL_WITH_ADB` folder in this package and review the instructions in 
+Navigate to the [`_INSTALL_WITH_ADB`](/_INSTALL_WITH_ADB) folder in this package and review the instructions in 
 README.
 
 ---
