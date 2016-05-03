@@ -62,7 +62,7 @@ avd = avd.rstrip('/')
 
 #http://d1su11fsq8j9e7.cloudfront.net/poyntos_1_2_11_avd_img.zip
 # Download and unzip
-download('http://d1su11fsq8j9e7.cloudfront.net/','poyntos_1_2_11_avd_img.zip')
+download('http://d1su11fsq8j9e7.cloudfront.net/','poyntos_1_2_11_avd_img_r003.zip')
 unzip('poyntos_1_2_11_avd_img.zip')
 
 # Copy files to destination directory
