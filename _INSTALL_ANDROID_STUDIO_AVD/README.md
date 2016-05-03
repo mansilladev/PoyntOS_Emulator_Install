@@ -18,6 +18,7 @@ Instead, read the instructions in the [`_INSTALL_WITH_ADB`](/_INSTALL_WITH_ADB) 
 ## Installation Instructions for AVD
  1. Run the `setup_poyntos_avd.py` Python script.
  2. Type in the path to your Android Studio's `avd` folder.
+ 3. Wait patiently -- a 200+MB download of the emulator image may take several minutes depending on your available bandwidth. 
  3. In Android Studio, navigate to `Tools` > `Android` > `AVD Manager`. If you don't see `Poynt Emulator 1.2.11` in the list of devices, click the refresh button at the bottom of the window. If you still do not see it, then you did not provide the correct path to your Android Studio's `avd` folder.
   
 ## Ready to Go!
