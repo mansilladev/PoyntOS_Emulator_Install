@@ -18,7 +18,7 @@ and review the instructions in README.
 ## Using a different emulator or a physical tablet?
 If you're using an emulator other than AVD (like Genymotion) _or_ you want to install the PoyntOS
 emulator on a physical device, we have provided a script that installs PoyntOS to your device using
-the `adb` command line tool. e
+the `adb` command line tool. 
 Navigate to the [`_INSTALL_WITH_ADB`](/_INSTALL_WITH_ADB) folder in this package and review the instructions in 
 README.
 

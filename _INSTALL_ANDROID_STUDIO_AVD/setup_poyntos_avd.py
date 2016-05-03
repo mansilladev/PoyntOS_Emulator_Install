@@ -1,5 +1,5 @@
 #!/usr/bin/python
-import os, sys, shutil
+import os, sys, shutil, zipfile, urllib2
 from shutil import copyfile
 from stat import *
 from os.path import join
@@ -17,7 +17,7 @@ def updatefile(source):
 
 ### Download ZIP from CDN
 #
-def download_and_unzip(host, file_name):
+def download(host, file_name):
     if (os.path.isfile('./' + file_name)):
         print "File already downloaded: %s" % file_name
         return
@@ -44,6 +44,11 @@ def download_and_unzip(host, file_name):
 
     f.close()
 
+def unzip(file_name):
+    zf = zipfile.ZipFile('./' + file_name)
+    
+    zf.extract('userdata.img', './Poynt_Emulator_1_2_11.avd')
+    zf.extract('sdcard.img', './Poynt_Emulator_1_2_11.avd')
 
 ### Main
 #
@@ -57,9 +62,8 @@ avd = avd.rstrip('/')
 
 #http://d1su11fsq8j9e7.cloudfront.net/poyntos_1_2_11_avd_img.zip
 # Download and unzip
-download_and_unzip('http://d1su11fsq8j9e7.cloudfront.net','poyntos_1_2_11_avd_img.zip')
-
-
+download('http://d1su11fsq8j9e7.cloudfront.net/','poyntos_1_2_11_avd_img.zip')
+unzip('poyntos_1_2_11_avd_img.zip')
 
 # Copy files to destination directory
 print("\nCopying PoyntOS Emulator image to avd directory...")
