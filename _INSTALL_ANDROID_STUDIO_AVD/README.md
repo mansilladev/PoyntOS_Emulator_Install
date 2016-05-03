@@ -6,7 +6,7 @@ activated on your Poynt developer account.
 
 ## Using a different virtual device emulator like Genymotion?
 If you're using a different emulator (not Android Studio's AVD), do not follow the instructions below.
-Instead, read the `POYNTOS_INSTALL_ADB.md` instructions in the `adb_files` folder.
+Instead, read the instructions in the [`_INSTALL_WITH_ADB`](/_INSTALL_WITH_ADB) folder.
 
 ---
 
@@ -16,16 +16,10 @@ Instead, read the `POYNTOS_INSTALL_ADB.md` instructions in the `adb_files` folde
  * Python (if you're using the installtion script)
  
 ## Installation Instructions for AVD
-There are two ways to install the AVD emulator.
- * Setup script
-  1. Run the `setup_poyntos_avd.py` Python script.
-  2. Type in the path to your Android Studio's `avd` folder.
-  3. In Android Studio, navigate to `Tools` > `Android` > `AVD Manager`. If you don't see `Poynt Emulator 1.2.11` in the list of devices, click the refresh button at the bottom of the window. If you still do not see it, then you did not provide the correct path to your Android Studio's `avd` folder.
+ 1. Run the `setup_poyntos_avd.py` Python script.
+ 2. Type in the path to your Android Studio's `avd` folder.
+ 3. In Android Studio, navigate to `Tools` > `Android` > `AVD Manager`. If you don't see `Poynt Emulator 1.2.11` in the list of devices, click the refresh button at the bottom of the window. If you still do not see it, then you did not provide the correct path to your Android Studio's `avd` folder.
   
- * Manual installation
-  1. Copy the contents of this package's `avd_files` folder into your Android Studio's `avd` folder. Instructions for locating your `avd` folder are below.
-  2. Edit each of the `.ini` files with the correct path to your Android Studio's `avd` folder. Replace `%%AVD_
-
 ## Ready to Go!
 Now that PoyntOS is installed, the first thing you'll need to do is activate the terminal. Run `SetupWizard` to start the Activation flow. 
 At this point, you'll need to have set up a test merchant and added a test terminal from the PoyntHQ Developer Portal. For more information 
